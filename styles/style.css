@@ -7,3 +7,24 @@
 
 
 /*FOOTER*/
+.main_footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #b2b2b2;
+    padding: 20px 30px;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+h3{
+    margin-bottom: 10px;
+    
+}
+a{
+    
+}
+.main_footer img{
+    
+    margin: 5px;
+    width: 60px;
+}
