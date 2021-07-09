@@ -113,33 +113,13 @@
     height: 15%;
     text-align: center;
 }
-<<<<<<< HEAD
 .main_footer h3{
-=======
-
-h3 {
->>>>>>> 77a8086519af84bc1e18fd1610013651a476b423
     margin-bottom: 10px;
 
-}
-<<<<<<< HEAD
-.main_footer a{
-    
-=======
-
-a {
-
->>>>>>> 77a8086519af84bc1e18fd1610013651a476b423
 }
 
 .main_footer img {
 
     margin: 5px;
     width: 60px;
-}
-@media screen and (min-device-width : 457px) and (max-device-width : 800px) {
-    .main_footer {
-        display: flex;
-        /* flex-direction: column; */
-    }
 }
