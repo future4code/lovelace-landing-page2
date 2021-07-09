@@ -50,15 +50,21 @@ margin: 10px;
     height: 15%;
     text-align: center;
 }
-h3{
+.main_footer h3{
     margin-bottom: 10px;
     
 }
-a{
+.main_footer a{
     
 }
 .main_footer img{
     
     margin: 5px;
     width: 60px;
+}
+@media screen and (min-device-width : 457px) and (max-device-width : 800px) {
+    .main_footer {
+        display: flex;
+        /* flex-direction: column; */
+    }
 }
