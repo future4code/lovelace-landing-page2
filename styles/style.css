@@ -109,11 +109,16 @@
 }
 
 .main_about_header h2 {
-    margin: 20px auto;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    font-size: 24px;
 }
 
 .main_about_header p {
     margin-right: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
 }
 
 
@@ -127,12 +132,8 @@
     text-align: center;
 }
 
-.main_projects_header p {
-    margin-top: 10px;
-}
-
 .main_projects_content {
-    padding: 80px 0 0 0;
+    padding: 40px 0 0 0;
     color: #E3E3E3;
     display: flex;
     justify-content: space-around;
@@ -140,14 +141,9 @@
 }
 
 .main_projects_content article {
-    /*flex-basis: calc(33% - 20px);*/
     margin: 10px;
     padding: 30px;
     text-align: center;
-}
-
-.main_projects_content article a {
-    color: #E3E3E3
 }
 
 .main_projects_content article:hover {
@@ -168,19 +164,52 @@
     color: #423e3c;
 }
 
-.home_projects_content article p {
-    font-size: 14px;
+.main_projects_content article p {
+    font-size: 18px;
     color: #423e3c;
 }
 
 .main_products_list1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 
-/*FOOTER*/
+.main_region {
+    background-color: #B1A296;
+}
+
+.main_region_header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.main_region_header h2{
+    color: #641311;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main_region_header p {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main_region_send {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.main_region_send img{
+    width: 70%;
+}
+
+    /*FOOTER*/
 .main_footer {
     background-color: #b2b2b2;
     padding: 20px 30px;
@@ -202,4 +231,41 @@ a {
 
     margin: 5px;
     width: 60px;
+}
+
+
+/*RESPONSIVO*/
+
+/* 1024px */
+@media (max-width: 64em){
+
+
+}
+
+/* 768px */
+@media (max-width: 48em){
+
+
+
+}
+
+/* 680px */
+@media (max-width: 42em){
+
+
+}
+
+/* 640px */
+@media (max-width: 40em){
+
+}
+
+/* 520px */
+@media (max-width: 32em){
+
+}
+
+/* 480px */
+@media (max-width: 30em){
+
 }

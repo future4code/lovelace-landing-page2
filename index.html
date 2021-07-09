@@ -16,8 +16,8 @@
     <div class="main-nav">
         <a href="#about">Sobre</a>
         <a href="#main_products">Produtos</a>
-        <a href="">Localização</a>
-        <a href="">Redes Sociais</a>
+        <a href="#region">Região</a>
+        <a href="#footer">Redes Sociais</a>
     </div>
 </header>
 
@@ -30,10 +30,10 @@
 
                 <div class="main_cta_header_text">
                     <h1>4Food Um Supermercado na Palma da Mão</h1>
-                    <a href="#">Saiba Mais</a>
+                    <a href="#about">Saiba Mais</a>
                     <div class="appDownload">
-                        <img src="img/googleplay.png" alt="googleplay">
-                        <img src="img/appstore.png" alt="appstore">
+                        <a href="https://play.google.com/store" target="_blank"><img src="img/googleplay.png" alt="googleplay"></a>
+                        <a href="https://www.apple.com/br/app-store/" target="_blank"><img src="img/appstore.png" alt="appstore"></a>
                     </div>
                 </div>
 
@@ -44,11 +44,11 @@
     <section class="main_about" id="about">
         <div class="main_about_header container">
             <header>
-                <h2>Sobre a 4Food:</h2>
-                <p>Como funciona o 4Food:
-                    O sistema do 4Food é extremamente ágil e completo. 
-                    Como o cliente tem, na tela, todo o cardápio, detalhes dos produtos e preços, 
-                    ele pode escolher tudo com total autonomia, sem que você precise contratar pessoas 
+                <h2>Como funciona o 4Food:</h2>
+                <p>
+                    O sistema do 4Food é extremamente ágil e completo.
+                    Como o cliente tem, na tela, todo o cardápio, detalhes dos produtos e preços,
+                    ele pode escolher tudo com total autonomia, sem que você precise contactar pessoas
                     para o atendimento ou ocupar linhas telefônicas.
                 </p>
             </header>
@@ -68,10 +68,10 @@
                 <div class="main_projects_content">
                     <article class="radius">
                         <header>
-                            <a href="#">
-                                <img src="img/Nescau.png" alt="Produto 1"/>
+                            <a href="#main_products">
+                                <img src="img/Nescau.png" alt="Nescau"/>
                                 <h3>Achocolatado Nescau</h3>
-                                <p>R$ 23,00</p>
+                                <p>R$ 7,89</p>
                             </a>
                         </header>
                     </article>
@@ -80,10 +80,10 @@
                 <div class="main_projects_content">
                     <article class="radius">
                         <header>
-                            <a href="#">
-                                <img src="img/Bombom.png" alt="Produto 1"/>
-                                <h3>Achocolatado Nescau</h3>
-                                <p>R$ 23,00</p>
+                            <a href="#main_products">
+                                <img src="img/Bombom.png" alt="Bombom"/>
+                                <h3>Bombom Garoto</h3>
+                                <p>R$ 24,99</p>
                             </a>
                         </header>
                     </article>
@@ -92,10 +92,10 @@
                 <div class="main_projects_content">
                     <article class="radius">
                         <header>
-                            <a href="#">
-                                <img src="img/OMO-2KG.png" alt="Produto 1"/>
-                                <h3>Achocolatado Nescau</h3>
-                                <p>R$ 23,00</p>
+                            <a href="#main_products">
+                                <img src="img/OMO-2KG.png" alt="OMO-2KG"/>
+                                <h3>OMO 2KG</h3>
+                                <p>R$ 33,89</p>
                             </a>
                         </header>
                     </article>
@@ -104,10 +104,10 @@
                 <div class="main_projects_content">
                     <article class="radius">
                         <header>
-                            <a href="#">
-                                <img src="img/Pipoca.png" alt="Produto 1"/>
-                                <h3>Achocolatado Nescau</h3>
-                                <p>R$ 23,00</p>
+                            <a href="#main_products">
+                                <img src="img/Pipoca.png" alt="Pipoca"/>
+                                <h3>Pipoca</h3>
+                                <p>R$ 16,29</p>
                             </a>
                         </header>
                     </article>
@@ -116,10 +116,10 @@
                 <div class="main_projects_content">
                     <article class="radius">
                         <header>
-                            <a href="#">
-                                <img src="img/Qualy.png" alt="Produto 1"/>
-                                <h3>Achocolatado Nescau</h3>
-                                <p>R$ 23,00</p>
+                            <a href="#main_products">
+                                <img src="img/Qualy.png" alt="Qualy"/>
+                                <h3>Margarina Qualy</h3>
+                                <p>R$ 5,40</p>
                             </a>
                         </header>
                     </article>
@@ -128,10 +128,10 @@
                 <div class="main_projects_content">
                     <article class="radius">
                         <header>
-                            <a href="#">
-                                <img src="img/Veja.png" alt="Produto 1"/>
-                                <h3>Achocolatado Nescau</h3>
-                                <p>R$ 23,00</p>
+                            <a href="#main_products">
+                                <img src="img/Veja.png" alt="Veja"/>
+                                <h3>Veja Multiuso</h3>
+                                <p>R$ 14,40</p>
                             </a>
                         </header>
                     </article>
@@ -139,14 +139,24 @@
 
             </div>
 
-
         </section>
     </div>
 
+    <section class="main_region" id="region">
+        <div class="main_region_header container">
+            <header>
+                <h2>Atenção</h2>
+                <p>Confira nossa área de entrega!</p>
+            </header>
+        </div>
+        <div class="main_region_send container">
+            <img src="img/Mapa-atuação-sp.png" alt="logo">
+        </div>
+    </section>
 
 </main>
 
-<footer class="main_footer">
+<footer class="main_footer" id="footer">
     <h3>Me siga nas redes sociais!</h3>
     <a href="https://pt-br.facebook.com/">
         <img src="./img/Logo-Face.png" alt="Facebook">
