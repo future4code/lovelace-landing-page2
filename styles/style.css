@@ -1,8 +1,8 @@
 /*HEADER*/
-.main_header{
-    position: absolute;
+.main_header {
+    position: sticky;
     top: 0;
-    background-color:#423e3c;
+    background-color: #423e3c;
     padding: 10px 10px;
     display: flex;
     justify-content: space-between;
@@ -12,81 +12,82 @@
 
 }
 
-.logo{
-width: 70px;
-margin: 10px;
+.logo {
+    width: 70px;
+    margin: 10px;
 }
 
-.main-nav{
+.main-nav {
 
     display: flex;
-   justify-content: center;
-   align-content: center;
+    justify-content: center;
+    align-content: center;
 }
 
-.main-nav a{
+.main-nav a {
     padding: 20px;
     color: white;
     margin-right: 10px;
-    
+
 }
-.main-nav a:hover{
+
+.main-nav a:hover {
     background-color: #ccc;
     font-size: 18px;
     border-radius: 5px;
-    color:#D36833;
-   
+    color: #D36833;
+
 
 }
+
 /*MAIN*/
 
-/*.main_content{*/
-/*    */
-/*}*/
-
-.main_cta{
+.main_cta {
     background-color: #f9c829;
+}
+
+.main_cta header {
     padding: 10px;
     display: flex;
     height: 500px;
 }
 
-.main_cta_header{
+.main_cta_header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.main_cta_header h1 {
+.main_cta_header_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_cta_header_text h1 {
     color: #D36833;
     margin: 10px auto;
 }
 
-.main_cta_about_text {
+.main_cta_header_text a {
     display: flex;
     flex-direction: column;
-}
-
-.main_cta_header_button{
     background-color: #D36833;
     padding: 20px;
     border-radius: 10px;
     margin: 10px auto;
-    display: flex;
     align-items: center;
-}
-
-.main_cta_header_button a {
     color: #E3E3E3;
 }
 
-.main_cta_header_button a:hover{
+.main_cta_header_text a:hover {
     color: #423e3c;
 }
 
-    /*SOBRE*/
-.main_about{
-    background-color: #f6f6f6;
+
+/*SOBRE*/
+.main_about {
+    background-color: #FFF;
     padding: 30px;
 }
 
@@ -105,24 +106,25 @@ margin: 10px;
 
 
 /*FOOTER*/
-.main_footer{
-    /*position: absolute;*/
-    /*bottom: 0;*/
+.main_footer {
     background-color: #b2b2b2;
     padding: 20px 30px;
     width: 100%;
     height: 15%;
     text-align: center;
 }
-h3{
+
+h3 {
     margin-bottom: 10px;
-    
+
 }
-a{
-    
+
+a {
+
 }
-.main_footer img{
-    
+
+.main_footer img {
+
     margin: 5px;
     width: 60px;
 }
