@@ -85,12 +85,16 @@
 
 .appDownload img {
     width: 10em;
-    margin: 30px;
+    margin: 30px ;
     text-align: center;
 }
 
+.appDownload a{
+    padding: 5px 0;
+    margin: 10px auto;
+}
 
-/*SOBRE*/
+    /*SOBRE*/
 .main_about {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 30px;
